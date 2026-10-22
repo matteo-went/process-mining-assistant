@@ -1,0 +1,21 @@
+# Daten: Rohdaten und aufbereitete Daten nicht ins Git (zu groß, Quelle siehe README)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS / Editor
+.DS_Store
+.vscode/
+
+# Streamlit-Secrets (falls später nötig)
+.streamlit/secrets.toml
+
+# Persönliche Dateien (bleiben lokal)
+CLAUDE.md
+docs/lernnotizen.md
